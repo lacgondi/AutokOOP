@@ -18,5 +18,11 @@ public class Main {
         autoList.add(t2);
         autoList.add(p2);
         autoList.add(p3);
+
+        for (Auto a:autoList) {
+            System.out.println(a.getSebbesseg());
+            a.gyorsul();
+            System.out.println(a.getSebbesseg());
+        }
     }
 }
